@@ -1,0 +1,16 @@
+{
+  "name": "meu-projeto",
+  "private": true,
+  "workspaces": [
+    "frontEnd",
+    "backEnd"
+  ],
+  "scripts": {
+    "dev:front": "cd frontEnd && npm run dev",
+    "dev:back": "cd backEnd && npm run start",
+    "dev": "concurrently \"npm run dev:front\" \"npm run dev:back\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

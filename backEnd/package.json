@@ -1,0 +1,23 @@
+{
+  "name": "interpretadorportugol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@designliquido/delegua": "github:DesignLiquido/delegua",
+    "@designliquido/delegua-node": "^1.4.2",
+    "@designliquido/portugol-studio": "^0.4.11",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "delegua": "^1.3.2",
+    "express": "^5.1.0"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
